@@ -1,0 +1,34 @@
+{
+    // 常规设置
+    "common": {
+        // http 端口
+        "http_port": 2333,
+        // logger 日志模块
+        "logger": true,
+        // GET 根路径 自动 302
+        "redirect": "https://github.com/colour93"
+    },
+    // 路由器推送服务 (zzsj0928/luci-app-pushbot) (需要先登录 bot)
+    "routerPush": {
+        // 验证 key (路由发送请求时的 query 中 key 字段)
+        "key": "routerPushKey",
+        // 目标QQ
+        "qq": 123456789
+    },
+    // 密钥设置
+    "keys": {
+    },
+    // 机器人相关设置
+    "bot":{
+        // 连接设置
+        "connectConfig": {
+            // mirai-api-http 的设置
+            "host": "http://localhost",
+            "authKey": "authKey",
+            "qq": 987654321,
+            "enableWebsocket": true
+        },
+        // bot 对外 http 接口的校验密钥 (POST 时字段)
+        "verifyKey": "verifyKey"
+    }
+}

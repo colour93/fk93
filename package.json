@@ -1,0 +1,22 @@
+{
+  "name": "fk93",
+  "version": "0.0.1",
+  "description": "一个因为懒而出现的个人使用api集合",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "node-mirai-sdk": "^0.3.1",
+    "yooofur-clog": "github:colour93/yooofur-clog"
+  },
+  "repository": "https://github.com/colour93/fk93",
+  "author": "玖叁(colour_93) <colour_93@furry.top>",
+  "text": "______ _   __ _____  _____ \n|  ___| | / /|  _  ||____ |\n| |_  | |/ / | |_| |    / /\n|  _| |    \\ \\____ |    \\ \\\n| |   | |\\  \\.___/ /.___/ /\n\\_|   \\_| \\_/\\____/ \\____/ "
+}
