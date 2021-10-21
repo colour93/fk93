@@ -5,7 +5,7 @@
 ## 奇奇怪怪的功能支持
 
 - [mirai](https://github.com/mamoe/mirai) bot 支持 (通过 [project-mirai/mirai-api-http](https://github.com/project-mirai/mirai-api-http))
-- [zzsj0928/luci-app-pushbot]([zzsj0928/luci-app-pushbot: PushBot running on openwrt (github.com)](https://github.com/zzsj0928/luci-app-pushbot)) 的 自定义推送
+- [zzsj0928/luci-app-pushbot](https://github.com/zzsj0928/luci-app-pushbot) 的 自定义推送
 
 ### 使用说明
 
